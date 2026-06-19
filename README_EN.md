@@ -133,4 +133,4 @@ Before using this project, please carefully read, fully understand, and accept a
 ## LICENSE
 `AgBox` is licensed under the [MIT License](https://github.com/tdragon6/AgBox/blob/main/LICENSE)
 
-View third-party open-source software licenses referenced by `AgBox` at [third_party_licenses](https://github.com/tdragon6/AgBox/tree/main/third_party_license)
+View third-party open-source software licenses referenced by `AgBox` at [third_party_licenses](https://github.com/tdragon6/AgBox/tree/main/third_party_licenses)
