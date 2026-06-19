@@ -12,7 +12,6 @@
 	<img src="https://img.shields.io/github/stars/tdragon6/AgBox">
   <img src="https://img.shields.io/github/v/tag/tdragon6/AgBox">
 	<img src="https://img.shields.io/github/v/release/tdragon6/AgBox">
-	<img src="https://img.shields.io/github/downloads/tdragon6/AgBox/total">
 	<img src="https://img.shields.io/github/issues/tdragon6/AgBox">
 </p>
       
