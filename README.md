@@ -131,4 +131,4 @@ agbox start -d      # 后台启动
 ## LICENSE
 `AgBox` 使用 [MIT License](https://github.com/tdragon6/AgBox/blob/main/LICENSE)
 
-查看 `AgBox` 引用的第三方开源软件许可证 [third_part_licenses](https://github.com/tdragon6/AgBox/tree/main/third_part_licenses)
+查看 `AgBox` 引用的第三方开源软件许可证 [third_party_licenses](https://github.com/tdragon6/AgBox/tree/main/third_party_licenses)
