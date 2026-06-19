@@ -1,0 +1,290 @@
+[
+    {
+        "category": "software-development",
+        "name": "systematic-debugging"
+    },
+    {
+        "category": "software-development",
+        "name": "node-inspect-debugger"
+    },
+    {
+        "category": "software-development",
+        "name": "simplify-code"
+    },
+    {
+        "category": "software-development",
+        "name": "requesting-code-review"
+    },
+    {
+        "category": "software-development",
+        "name": "spike"
+    },
+    {
+        "category": "software-development",
+        "name": "plan"
+    },
+    {
+        "category": "software-development",
+        "name": "python-debugpy"
+    },
+    {
+        "category": "software-development",
+        "name": "test-driven-development"
+    },
+    {
+        "category": "software-development",
+        "name": "hermes-agent-skill-authoring"
+    },
+    {
+        "category": "smart-home",
+        "name": "openhue"
+    },
+    {
+        "category": "devops",
+        "name": "kanban-orchestrator"
+    },
+    {
+        "category": "devops",
+        "name": "kanban-worker"
+    },
+    {
+        "category": "",
+        "name": "dogfood"
+    },
+    {
+        "category": "productivity",
+        "name": "maps"
+    },
+    {
+        "category": "productivity",
+        "name": "ocr-and-documents"
+    },
+    {
+        "category": "productivity",
+        "name": "airtable"
+    },
+    {
+        "category": "productivity",
+        "name": "teams-meeting-pipeline"
+    },
+    {
+        "category": "productivity",
+        "name": "nano-pdf"
+    },
+    {
+        "category": "productivity",
+        "name": "powerpoint"
+    },
+    {
+        "category": "productivity",
+        "name": "notion"
+    },
+    {
+        "category": "productivity",
+        "name": "google-workspace"
+    },
+    {
+        "category": "data-science",
+        "name": "jupyter-live-kernel"
+    },
+    {
+        "category": "creative",
+        "name": "comfyui"
+    },
+    {
+        "category": "creative",
+        "name": "humanizer"
+    },
+    {
+        "category": "creative",
+        "name": "baoyu-infographic"
+    },
+    {
+        "category": "creative",
+        "name": "popular-web-designs"
+    },
+    {
+        "category": "creative",
+        "name": "pretext"
+    },
+    {
+        "category": "creative",
+        "name": "manim-video"
+    },
+    {
+        "category": "creative",
+        "name": "html-artifact"
+    },
+    {
+        "category": "creative",
+        "name": "ascii-art"
+    },
+    {
+        "category": "creative",
+        "name": "ascii-video"
+    },
+    {
+        "category": "creative",
+        "name": "touchdesigner-mcp"
+    },
+    {
+        "category": "creative",
+        "name": "claude-design"
+    },
+    {
+        "category": "creative",
+        "name": "excalidraw"
+    },
+    {
+        "category": "creative",
+        "name": "songwriting-and-ai-music"
+    },
+    {
+        "category": "creative",
+        "name": "p5js"
+    },
+    {
+        "category": "creative",
+        "name": "design-md"
+    },
+    {
+        "category": "autonomous-ai-agents",
+        "name": "hermes-agent"
+    },
+    {
+        "category": "autonomous-ai-agents",
+        "name": "claude-code"
+    },
+    {
+        "category": "autonomous-ai-agents",
+        "name": "codex"
+    },
+    {
+        "category": "autonomous-ai-agents",
+        "name": "opencode"
+    },
+    {
+        "category": "apple",
+        "name": "macos-computer-use"
+    },
+    {
+        "category": "apple",
+        "name": "imessage"
+    },
+    {
+        "category": "apple",
+        "name": "apple-reminders"
+    },
+    {
+        "category": "apple",
+        "name": "apple-notes"
+    },
+    {
+        "category": "apple",
+        "name": "findmy"
+    },
+    {
+        "category": "research",
+        "name": "arxiv"
+    },
+    {
+        "category": "research",
+        "name": "research-paper-writing"
+    },
+    {
+        "category": "research",
+        "name": "llm-wiki"
+    },
+    {
+        "category": "research",
+        "name": "polymarket"
+    },
+    {
+        "category": "research",
+        "name": "blogwatcher"
+    },
+    {
+        "category": "",
+        "name": "yuanbao"
+    },
+    {
+        "category": "media",
+        "name": "songsee"
+    },
+    {
+        "category": "media",
+        "name": "youtube-content"
+    },
+    {
+        "category": "media",
+        "name": "heartmula"
+    },
+    {
+        "category": "media",
+        "name": "gif-search"
+    },
+    {
+        "category": "social-media",
+        "name": "xurl"
+    },
+    {
+        "category": "mlops",
+        "name": "llama-cpp"
+    },
+    {
+        "category": "mlops",
+        "name": "serving-llms-vllm"
+    },
+    {
+        "category": "mlops",
+        "name": "audiocraft-audio-generation"
+    },
+    {
+        "category": "mlops",
+        "name": "weights-and-biases"
+    },
+    {
+        "category": "mlops",
+        "name": "huggingface-hub"
+    },
+    {
+        "category": "mlops",
+        "name": "segment-anything-model"
+    },
+    {
+        "category": "mlops",
+        "name": "evaluating-llms-harness"
+    },
+    {
+        "category": "github",
+        "name": "github-repo-management"
+    },
+    {
+        "category": "github",
+        "name": "codebase-inspection"
+    },
+    {
+        "category": "github",
+        "name": "github-auth"
+    },
+    {
+        "category": "github",
+        "name": "github-pr-workflow"
+    },
+    {
+        "category": "github",
+        "name": "github-issues"
+    },
+    {
+        "category": "github",
+        "name": "github-code-review"
+    },
+    {
+        "category": "email",
+        "name": "himalaya"
+    },
+    {
+        "category": "note-taking",
+        "name": "obsidian"
+    }
+]

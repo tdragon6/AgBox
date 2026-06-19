@@ -1,0 +1,1 @@
+import{_ as t}from"./index.485c6d1a.js";import{B as _,aE as r,aF as s,aK as a,b2 as n}from"./arco.0207ec13.js";const c={};function d(f,e){const o=n;return _(),r(o,{class:"footer"},{default:s(()=>[...e[0]||(e[0]=[a(" Copyright \xA9 2026 AgBox. All rights reserved. ",-1)])]),_:1})}const l=t(c,[["render",d],["__scopeId","data-v-4fe10561"]]);export{l as F};

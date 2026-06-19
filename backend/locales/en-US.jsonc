@@ -1,0 +1,104 @@
+{
+    // common
+    "success": "success",
+    "failed": "failed",
+
+    // auth related
+    "token_invalid_or_expired": "token is invalid or expired",
+    "invalid_username_or_password": "username or password is invalid",
+
+    // fastapi 422
+    "String should match pattern '^[a-zA-Z0-9_-]+$'": "Resource name can only contain letters, numbers, underscores, and hyphens",
+    "String should match pattern '^[2-9a-zA-Z]{22}$'": "Resource ID is invalid",
+    "String should match pattern '^\\d{8}_\\d{6}_[0-9a-f]{6}$'": "Invalid project, session, or workspace ID",
+    "String should match pattern '^https?://(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b(?:[-a-zA-Z0-9@:%_\\+.~#?&//=]*)$'": "URL is invalid",
+    "Field required": "Cannot be empty",
+
+    // model related
+    "provider_not_found": "No model provider found",
+    "no_models_found": "No available model found",
+    "model_not_in_list": "The model is not in the available list",
+    "model_config_not_found": "Model configuration does not exist",
+    "create_model_config_failed": "Model configuration creation failed",
+    "update_model_config_failed": "Model configuration update failed",
+    "delete_model_config_failed": "Model configuration deletion failed",
+    "model_config_error": "Model configuration error",
+
+    // file upload related
+    "mime_type_not_valid": "File type is not valid",
+    "ext_not_valid": "File extension is not valid",
+    "file_size_not_valid": "File size exceeds the limit",
+    
+    // archive related
+    "zip_not_valid": "ZIP file is not valid",
+    "zip_extract_error": "ZIP file extraction failed",
+    "no_skill_found_in_archive": "No valid skill found in the archive",
+    "import_skill_exists": "The archive contains skills that already exist",
+    
+    // skills related
+    "skills_format_error": "Skills format error",
+    "skill_not_found": "Skill not found",
+    "skills_category_not_found": "Skills category not found",
+    "skills_category_not_empty": "Skills category is not empty",
+    "skills_category_exists": "Skills category already exists",
+    "get_skillsmp_items_failed": "Failed to get skillsmp skills",
+    "install_skills_from_skillsmp_failed": "Failed to install skills from skillsmp",
+    "skill_name_cannot_be_changed": "Skill name cannot be changed",
+    
+    // path related
+    "path_not_file": "Resource path is not a file",
+    "path_not_found": "Resource path does not exist",
+    "cannot_read_file_content": "Cannot read resource file content",
+    "cannot_save_file_content": "Cannot save resource file content",
+    "path_invalid": "Resource path is invalid",
+    "path_exists": "Resource path already exists",
+    
+    // robots related
+    "robot_exists": "Pending create/clone digital employee name already exists",
+    "robot_not_found": "Digital employee not found",
+    "robots_format_error": "Digital employee format error",
+    "no_robots_found_in_archive": "No valid digital employee found in the archive",
+    "import_robot_exists": "The archive contains digital employees that already exist",
+    "robots_is_running": "There are digital employees that are running tasks",
+    "robots_is_pending": "There are digital employees that are pending for tasks",
+
+    // robots market related
+    "robots_market_list_error": "Get digital employee market list error",
+    "install_robots_from_market_failed": "Failed to install digital employees from market",
+
+    // session related
+    "rename_session_failed": "Session rename failed",
+
+    // task related
+    "project_id_not_found": "Project or session ID not found",
+    "task_not_found": "Task not found",
+    "create_task_record_failed": "Task record creation failed",
+    "update_task_record_failed": "Task record update failed",
+    "delete_task_record_failed": "Task record deletion failed",
+    "task_is_running_or_pending": "Task is running or pending",
+    "task_is_finished": "Task is finished",
+    "task_is_not_pending": "Task is not pending",
+
+    // project related
+    "create_project_record_failed": "Project creation failed",
+    "update_project_record_failed": "Project update failed",
+    "delete_project_record_failed": "Project deletion failed",
+
+    // coordinator related
+    "coordinator_not_found": "Coordinator not found",
+
+    // scheduler related
+    "scheduler_job_not_found": "Scheduler job not found",
+    "cron_field_invalid": "Cron field is invalid",
+    "scheduler_jobs_exceeds_max": "Scheduler job count exceeds the maximum limit",
+    "scheduler_job_exist": "There are associated scheduler jobs",
+
+    // inbox related
+    "create_inbox_record_failed": "Inbox notification creation failed",
+    "update_inbox_read_status_failed": "Inbox notification read status update failed",
+    "delete_inbox_record_failed": "Inbox notification deletion failed",
+    "inbox_not_found": "Inbox notification not found",
+
+    // system settings related
+    "setting_not_valid": "System setting value is not valid"
+}

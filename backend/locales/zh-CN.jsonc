@@ -1,0 +1,104 @@
+{
+    // 通用
+    "success": "成功",
+    "failed": "失败",
+
+    // 认证相关
+    "token_invalid_or_expired": "token 无效或过期",
+    "invalid_username_or_password": "用户名或密码错误",
+
+    // fastapi 422
+    "String should match pattern '^[a-zA-Z0-9_-]+$'": "资源名只能包含字母、数字、下划线和短横线",
+    "String should match pattern '^[2-9a-zA-Z]{22}$'": "资源ID无效",
+    "String should match pattern '^\\d{8}_\\d{6}_[0-9a-f]{6}$'": "项目/会话/工作空间 ID 无效",
+    "String should match pattern '^https?://(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b(?:[-a-zA-Z0-9@:%_\\+.~#?&//=]*)$'": "URL 无效",
+    "Field required": "不能为空",
+
+    // 模型相关
+    "provider_not_found": "未找到模型提供商",
+    "no_models_found": "未找到可用模型",
+    "model_not_in_list": "模型不在可用列表中",
+    "model_config_not_found": "模型配置不存在",
+    "create_model_config_failed": "模型配置创建失败",
+    "update_model_config_failed": "模型配置更新失败",
+    "delete_model_config_failed": "模型配置删除失败",
+    "model_config_error": "模型配置错误",
+
+    // 文件上传相关
+    "mime_type_not_valid": "文件类型无效",
+    "ext_not_valid": "文件扩展名无效",
+    "file_size_not_valid": "文件大小超出限制",
+
+    // 压缩包相关
+    "zip_not_valid": "ZIP 文件无效",
+    "zip_extract_error": "ZIP 文件解压失败",
+
+    // 技能相关
+    "no_skill_found_in_archive": "归档中未找到有效技能",
+    "import_skill_exists": "归档中包含已存在的技能",
+    "skills_format_error": "技能格式错误",
+    "skill_not_found": "未找到指定技能",
+    "skills_category_not_found": "未找到指定技能分类",
+    "skills_category_not_empty": "技能分类不为空",
+    "skills_category_exists": "技能分类已存在",
+    "get_skillsmp_items_failed": "获取 skillsmp 技能失败",
+    "install_skills_from_skillsmp_failed": "从 skillsmp 安装技能失败",
+    "skill_name_cannot_be_changed": "技能名称不能被修改",
+
+    // 路径相关
+    "path_not_file": "资源路径不是文件",
+    "path_not_found": "资源路径不存在",
+    "cannot_read_file_content": "无法读取资源文件内容",
+    "cannot_save_file_content": "无法保存资源文件内容",
+    "path_invalid": "资源路径无效",
+    "path_exists": "资源路径已存在",
+
+    // 数字员工相关
+    "robot_exists": "待创建/克隆的数字员工已存在",
+    "robot_not_found": "未找到指定数字员工",
+    "robots_format_error": "数字员工格式错误",
+    "no_robots_found_in_archive": "归档中未找到有效数字员工",
+    "import_robot_exists": "归档中包含已存在的数字员工",
+    "robots_is_running": "存在正在执行任务中的数字员工",
+    "robots_is_pending": "存在待处理状态任务中的数字员工",
+
+    // 数字员工市场相关
+    "robots_market_list_error": "获取数字员工市场清单出错",
+    "install_robots_from_market_failed": "从数字员工市场安装数字员工失败",
+
+    // 会话相关
+    "rename_session_failed": "会话重命名失败",
+
+    // 任务相关
+    "project_id_not_found": "未找到项目/会话 ID",
+    "task_not_found": "未找到指定任务",
+    "create_task_record_failed": "创建任务记录失败",
+    "update_task_record_failed": "更新任务记录失败",
+    "delete_task_record_failed": "删除任务记录失败",
+    "task_is_running_or_pending": "存在正在执行或待处理状态中的任务",
+    "task_is_finished": "存在已完成的任务",
+    "task_is_not_pending": "存在不是待处理状态的任务",
+
+    // 项目相关
+    "create_project_record_failed": "创建项目失败",
+    "update_project_record_failed": "更新项目失败",
+    "delete_project_record_failed": "删除项目失败",
+
+    // 协调器
+    "coordinator_not_found": "未找到协调器",
+
+    // 定时任务相关
+    "scheduler_job_not_found": "未找到定时任务",
+    "cron_field_invalid": "定时时间无效",
+    "scheduler_jobs_exceeds_max": "定时任务数量超过最大限制",
+    "scheduler_job_exist": "存在关联的定时任务",
+
+    // 收件箱相关
+    "create_inbox_record_failed": "创建收件箱通知失败",
+    "update_inbox_read_status_failed": "更新收件箱通知已读状态失败",
+    "delete_inbox_record_failed": "删除收件箱通知失败",
+    "inbox_not_found": "未找到收件箱通知",
+
+    // 系统设置相关
+    "setting_not_valid": "系统设置值无效"
+}

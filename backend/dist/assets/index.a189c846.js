@@ -1,0 +1,1 @@
+import{_ as c}from"./index.485c6d1a.js";/* empty css              */import{B as o,aE as e,bW as r}from"./arco.0207ec13.js";const s={};function n(_,a){const t=r;return o(),e(t,{class:"custom-center"})}const i=c(s,[["render",n]]);export{i as E};

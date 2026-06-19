@@ -1,0 +1,16 @@
+export default {
+  'dashboard.workplace.welcome': '欢迎回来！',
+  'dashboard.systemInfo': '系统信息',
+  'dashboard.version': '版本',
+  'dashboard.address': '后端地址',
+  'dashboard.cpuPercent': 'CPU 占用率',
+  'dashboard.memory': '内存使用情况',
+  'dashboard.disk': '磁盘使用情况',
+  'dashboard.docs': '使用文档',
+  'dashboard.docs.repoUrl': '仓库地址',
+  'dashboard.author': '作者',
+  'dashboard.author.description': '沉舟侧畔千帆过，病树前头万木春',
+  'dashboard.author.github': '作者 Github',
+  'dashboard.author.star': '点赞',
+  'dashboard.model.hint': '还没有模型配置呢，先创建一个吧～',
+};

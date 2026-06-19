@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background-color: var(--color-bg-1);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.general-card {
+  border-radius: 4px;
+  border: none;
+  & > .arco-card-header {
+    height: auto;
+    padding: 20px;
+    border: none;
+  }
+  & > .arco-card-body {
+    padding: 0 20px 20px 20px;
+  }
+}
+
+.split-line {
+  border-color: rgb(var(--gray-2));
+}
+
+.custom-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.custom-overflow-80vh {
+  height: 80vh;
+  overflow: auto;
+}
+
+.custom-icon-button {
+  color: var(--color-text-2);
+  font-size: 1.125rem;
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(var(--primary-6));
+    background-color: rgb(var(--gray-2));
+  }
+}
+
+.custom-ellipsis {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom-action-icon {
+  font-size: 1.125rem;
+  cursor: pointer;
+  opacity: 0;
+}

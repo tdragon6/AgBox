@@ -1,0 +1,16 @@
+export default {
+  'inbox': '收件箱',
+  'inbox.items': '收件箱列表',
+  'inbox.type': '通知类型',
+  'inbox.type.select.placeholder': '请选择通知类型',
+  'inbox.type.tasks': '任务完成',
+  'inbox.type.upgrade': '员工升级',
+  'inbox.status': '任务/升级状态',
+  'inbox.status.select.placeholder': '请选择任务/升级状态',
+  'inbox.isRead': '是否已读',
+  'inbox.isRead.select.placeholder': '请选择是否已读',
+  'inbox.read.all': '全部已读',
+  'inbox.detail.result': '收件箱详情',
+  'inbox.upgrade.title': '恭喜！数字员工成功升级！',
+  'inbox.upgrade.subtitle': '旧序落幕，新灵启程，下次一定是金色传说',
+};
