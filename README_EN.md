@@ -20,7 +20,7 @@
 <p align="center">
   <a href="#quick-deployment">Quick Deployment</a> •
   <a href="#documentation">Documentation</a> •
-  <a href="#environment">environment</a> •
+  <a href="#environment">Environment</a> •
   <a href="#features">Features</a> •
   <a href="#task-types">Task Types</a> •
   <a href="#collaboration">Collaboration</a> •
@@ -42,6 +42,7 @@ A digital employee is essentially an `Agent Profile` containing `agents.md` rule
 The `AgBox` framework is theoretically compatible with any `Agent Loop` engine, and currently uses `hermes-agent` as its base implementation.
 
 ## Quick Deployment
+- One-click deployment
 ```bash
 curl -fsSL https://raw.githubusercontent.com/tdragon6/AgBox/refs/heads/main/install.sh | bash
 ```
@@ -122,11 +123,6 @@ agbox start -d      # Start in background
 
 ### Workspace
 ![](https://tdragon6.github.io/AgBox-Docs/images/usage/tasks/workspace/tasks_workspace_gif.gif)
-
-## Version Info
-- Current version:
-    - `AgBox`: v0.1.0
-    - `hermes-agent`: v0.16.0
 
 ## Disclaimer
 This project (AgBox) is an open-source OPC digital employee hosting platform, intended solely for learning, research, and lawful automated office use. Before using this project, you should ensure that your use complies with local laws and regulations as well as your organization's compliance requirements, and that you have obtained the necessary authorizations.

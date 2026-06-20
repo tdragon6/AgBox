@@ -40,6 +40,7 @@
 `AgBox` 框架理论可接入任何 `Agent Loop` 引擎，目前以 `hermes-agent` 作为基座实现
 
 ## 快速部署
+- 一行命令部署
 ```bash
 curl -fsSL https://raw.githubusercontent.com/tdragon6/AgBox/refs/heads/main/install.sh | bash
 ```
