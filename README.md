@@ -16,13 +16,13 @@
 </p>
       
 <p align="center">
+  <a href="#快速部署">快速部署</a> •
+  <a href="#使用文档">使用文档</a> •
+  <a href="#环境说明">环境说明</a> •
   <a href="#功能特点">功能特点</a> •
   <a href="#任务类型">任务类型</a> •
   <a href="#协作说明">协作说明</a> •
-  <a href="#快速部署">快速部署</a> •
-  <a href="#使用文档">使用文档</a> •
   <a href="#部分功能预览">部分功能预览</a> •
-  <a href="#版本信息">版本信息</a> •
   <a href="#免责声明">免责声明</a> •
   <a href="#LICENSE">LICENSE</a>
 </p>
@@ -37,7 +37,36 @@
 
 数字员工本质是一个包含 `agents.md` 规则、`skills` 和 其他信息的 `Agent Profile`，对应 `hermes-agent` 的 `profile` 或 `claude code` 目录级 Agent
 
-`AgBox` 框架理论可接入任何 `Agent Loop` 引擎，目前以 `hermes-agent` 作为基座实现，
+`AgBox` 框架理论可接入任何 `Agent Loop` 引擎，目前以 `hermes-agent` 作为基座实现
+
+## 快速部署
+```bash
+curl -fsSL https://raw.githubusercontent.com/tdragon6/AgBox/refs/heads/main/install.sh | bash
+```
+- 设置用户名和密码：
+```bash
+agbox username      # 设置用户名
+agbox password      # 设置密码
+```
+- 启动服务，访问 `8000` 端口
+```bash
+agbox start         # 启动服务
+agbox start -d      # 后台启动
+```
+- 详细部署可参考 <a href="https://tdragon6.github.io/AgBox-Docs/quick/start.md" target="_blank">快速开始</a>，支持一键部署、docker 部署和手动部署多种方式
+
+## 使用文档
+<a href="https://tdragon6.github.io/AgBox-Docs/" target="_blank">AgBox 使用文档</a>
+
+## 环境说明
+- 当前版本：
+    - `AgBox`：`v0.1.0`
+    - `hermes-agent`：`v0.16.0`
+- 前端技术栈（`frontend`）：`TypeScript` + `Less` + `Vue3` + `Arco Vue Pro`
+- 后端技术栈（`backend`）：`Python3` + `FastApi` + `SQLAlchemy` + `SQLite3`
+- 为了方便部署，前端代码打包后托管在 `FastApi` 服务中，若需开发或单独部署前端：
+    - `frontend` 目录下，`npm run dev`，需要适配 `env.development` 和 `env.production` 中的 API 地址
+    - `backend` 目录下，`python main.py`
 
 ## 功能特点
 - 内置一键部署、docker 部署和手动部署多种方式，最快一行命令即可体验
@@ -71,25 +100,6 @@
     - 在保证关联溯源的基础上，隔离不同数字员工/协调器的专业积累和上下文会话
     - 可扩展其他任何 `Agent Loop` 引擎
 
-## 快速部署
-```bash
-curl -fsSL https://raw.githubusercontent.com/tdragon6/AgBox/refs/heads/main/install.sh | bash
-```
-- 设置用户名和密码：
-```bash
-agbox username      # 设置用户名
-agbox password      # 设置密码
-```
-- 启动服务，访问 `8000` 端口
-```bash
-agbox start         # 启动服务
-agbox start -d      # 后台启动
-```
-- 详细部署可参考 <a href="https://tdragon6.github.io/AgBox-Docs/quick/start.md" target="_blank">快速开始</a>，支持一键部署、docker 部署和手动部署多种方式
-
-## 使用文档
-<a href="https://tdragon6.github.io/AgBox-Docs/" target="_blank">AgBox 使用文档</a>
-
 ## 部分功能预览
 ### 数字员工
 ![](https://tdragon6.github.io/AgBox-Docs/images/usage/robots/manage/robots_manage.png)
@@ -110,11 +120,6 @@ agbox start -d      # 后台启动
 
 ### 工作空间
 ![](https://tdragon6.github.io/AgBox-Docs/images/usage/tasks/workspace/tasks_workspace_gif.gif)
-
-## 版本信息
-当前版本：
-- `AgBox`：`v0.1.0`
-- `hermes-agent`：`v0.16.0`
 
 ## 免责声明
 本项目（AgBox）是一个开源的 OPC 数字员工托管平台，仅供学习、研究与合法场景下的自动化办公使用。在使用本项目前，您应确保其用途符合当地法律法规及您所在组织的合规要求，并已取得必要的授权。

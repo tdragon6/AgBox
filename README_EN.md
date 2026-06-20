@@ -18,13 +18,13 @@
 </p>
 
 <p align="center">
+  <a href="#quick-deployment">Quick Deployment</a> •
+  <a href="#documentation">Documentation</a> •
+  <a href="#environment">environment</a> •
   <a href="#features">Features</a> •
   <a href="#task-types">Task Types</a> •
   <a href="#collaboration">Collaboration</a> •
-  <a href="#quick-deployment">Quick Deployment</a> •
-  <a href="#documentation">Documentation</a> •
   <a href="#feature-preview">Feature Preview</a> •
-  <a href="#version-info">Version Info</a> •
   <a href="#disclaimer">Disclaimer</a> •
   <a href="#license">LICENSE</a>
 </p>
@@ -40,6 +40,35 @@ The architecture design, front-end and back-end code development of this project
 A digital employee is essentially an `Agent Profile` containing `agents.md` rules, `skills`, and other information, corresponding to the `profile` in `hermes-agent` or the directory-level Agent in `claude code`.
 
 The `AgBox` framework is theoretically compatible with any `Agent Loop` engine, and currently uses `hermes-agent` as its base implementation.
+
+## Quick Deployment
+```bash
+curl -fsSL https://raw.githubusercontent.com/tdragon6/AgBox/refs/heads/main/install.sh | bash
+```
+- Set username and password:
+```bash
+agbox username      # Set username
+agbox password      # Set password
+```
+- Start the service and access port `8000`
+```bash
+agbox start         # Start the service
+agbox start -d      # Start in background
+```
+- For detailed deployment instructions, refer to <a href="https://tdragon6.github.io/AgBox-Docs/en/quick/start.md" target="_blank">Quick Start</a>, which supports one-click deployment, Docker deployment, and manual deployment
+
+## Documentation
+<a href="https://tdragon6.github.io/AgBox-Docs/en/" target="_blank">AgBox Documentation</a>
+
+## Environment
+- Current Version:
+    - `AgBox`: `v0.1.0`
+    - `hermes-agent`: `v0.16.0`
+- Frontend Stack (`frontend`): `TypeScript` + `Less` + `Vue3` + `Arco Vue Pro`
+- Backend Stack (`backend`): `Python3` + `FastApi` + `SQLAlchemy` + `SQLite3`
+- For easier deployment, the built frontend code is served by the `FastApi` service. To develop or deploy the frontend separately:
+    - In the `frontend` directory, run `npm run dev`. The API base URL needs to be configured in `env.development` and `env.production`.
+    - In the `backend` directory, run `python main.py`.
 
 ## Features
 - Built-in one-click deployment, Docker deployment, and manual deployment options — experience it with a single command
@@ -72,25 +101,6 @@ The `AgBox` framework is theoretically compatible with any `Agent Loop` engine, 
     - Tasks and messages of each digital employee/coordinator in the project support associative traceability, with the hierarchy ranging from Project → Task → Message.
     - While maintaining traceability, the professional accumulation and context/sessions of different digital employees/coordinators are isolated
     - Extensible to any other `Agent Loop` engine
-
-## Quick Deployment
-```bash
-curl -fsSL https://raw.githubusercontent.com/tdragon6/AgBox/refs/heads/main/install.sh | bash
-```
-- Set username and password:
-```bash
-agbox username      # Set username
-agbox password      # Set password
-```
-- Start the service and access port `8000`
-```bash
-agbox start         # Start the service
-agbox start -d      # Start in background
-```
-- For detailed deployment instructions, refer to <a href="https://tdragon6.github.io/AgBox-Docs/en/quick/start.md" target="_blank">Quick Start</a>, which supports one-click deployment, Docker deployment, and manual deployment
-
-## Documentation
-<a href="https://tdragon6.github.io/AgBox-Docs/en/" target="_blank">AgBox Documentation</a>
 
 ## Feature Preview
 ### Digital Employees

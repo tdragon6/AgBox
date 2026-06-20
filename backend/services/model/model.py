@@ -143,7 +143,7 @@ def get_models_config_items(
     is_online: bool = None
 ) -> tuple[bool, str, list[dict]]:
     '''
-    根据搜索内容获取模型配置列表
+    根据查询关键词获取模型配置列表
     '''
     stmt = select(Model)
 
