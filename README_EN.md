@@ -35,7 +35,7 @@
 </p>
 
 ---
-The architecture design and code development of this project are entirely hand-crafted, without any AI or Vibe coding involvement — feel free to use and maintain with confidence.
+The architecture design, front-end and back-end code development of this project are entirely hand-crafted, without any AI or Vibe coding involvement — feel free to use and maintain with confidence.
 
 A digital employee is essentially an `Agent Profile` containing `agents.md` rules, `skills`, and other information, corresponding to the `profile` in `hermes-agent` or the directory-level Agent in `claude code`.
 
@@ -53,7 +53,7 @@ The `AgBox` framework is theoretically compatible with any `Agent Loop` engine, 
 
 ## Task Types
 - `Conversation Task`: A traditional single digital employee task, similar to directly using an `Agent Loop` engine like `claude code`, `hermes-agent`, or `opencode` to start a single conversation session
-- `Project Task`: A multi-digital-employee collaborative task, similar to a project where multiple sessions of the above `Agent Loop` engines with different rules, skills, and configurations are invoked sequentially or in parallel, and their returned results are coordinated — i.e., the OPC pattern
+- `Project Task`: A multi-digital-employee collaborative task, similar to a project where multiple sessions of the above `Agent Loop` engines with different rules, skills, and configurations are invoked sequentially or in parallel, and their returned results are coordinated — i.e., the OPC pattern; All `Project Task` are initiated through coordinators for planned execution.
 - `Scheduled Task`: Mounted under a `Conversation Task` or `Project Task`, executed on a schedule via the `AgBox` built-in scheduler, supporting native `linux` `cron` expressions
 
 ## Collaboration
@@ -69,7 +69,7 @@ The `AgBox` framework is theoretically compatible with any `Agent Loop` engine, 
 - Advantages of `AgBox`'s OPC implementation:
     - Enables collaboration across multiple `Agent Loop` instances, solving the problem of excessive context within a single `Agent Loop`. Compared to the sub-Agent pattern, not only context but also sessions, configuration, and memory are fully independent — simulating real employees
     - Organized around projects rather than heartbeat-based task claiming, using coordinator-driven delegation and queue mechanisms for a clearer overall operational view, making project monitoring and management easier
-    - Task execution by each digital employee/coordinator within a project is traceable, with a hierarchy from Project → Task → Message
+    - Tasks and messages of each digital employee/coordinator in the project support associative traceability, with the hierarchy ranging from Project → Task → Message.
     - While maintaining traceability, the professional accumulation and context/sessions of different digital employees/coordinators are isolated
     - Extensible to any other `Agent Loop` engine
 

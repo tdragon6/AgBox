@@ -3,8 +3,34 @@ hermes 模型管理 业务逻辑
 '''
 
 
-from hermes_cli.auth import PROVIDER_REGISTRY
+from hermes_cli.auth import PROVIDER_REGISTRY, ProviderConfig
 from hermes_cli.models import fetch_api_models
+from providers import list_providers
+
+
+def add_extra_providers_to_registry() -> None:
+    '''
+    添加额外提供商信息到提供商注册表中
+    '''
+    for extra_provider in list_providers():
+        if extra_provider.name not in [ *PROVIDER_REGISTRY.keys(), 'custom' ]:
+            PROVIDER_REGISTRY[extra_provider.name] = ProviderConfig(
+                id=extra_provider.name,
+                name=extra_provider.display_name,
+                auth_type=extra_provider.auth_type,
+                portal_base_url=extra_provider.signup_url,
+                inference_base_url=extra_provider.base_url,
+                client_id='',
+                scope='',
+                extra={},
+                api_key_env_vars=extra_provider.env_vars,
+                base_url_env_var=''
+            )
+    
+    return True, 'success', None
+
+
+add_extra_providers_to_registry()
 
 
 def judge_provider_in_registry(
