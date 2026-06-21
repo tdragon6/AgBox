@@ -8,7 +8,7 @@ from hermes_cli.models import fetch_api_models
 from providers import list_providers
 
 
-def add_extra_providers_to_registry() -> None:
+def add_extra_providers_to_registry() -> tuple[bool, str, None]:
     '''
     添加额外提供商信息到提供商注册表中
     '''

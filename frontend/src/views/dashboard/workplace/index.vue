@@ -85,7 +85,7 @@
   </a-modal>
   <ModelEdit
     v-if="modelEditModalVisible === true"
-    :model-detail="{}"
+    :model-detail="{name: 'default'}"
     @close="modelEditModalVisible = false"
   />
 </template>
