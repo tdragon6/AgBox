@@ -1,1 +1,0 @@
-import{t as s}from"./index.485c6d1a.js";const e="/api/v1/settings";function i(t){return s.post(`${e}/get`,t)}function o(t){return s.post(`${e}/set`,t)}function a(){return s.get(`${e}/system/info`)}export{a,i as b,o as c};
