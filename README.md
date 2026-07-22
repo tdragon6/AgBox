@@ -54,7 +54,7 @@ agbox password      # 设置密码
 agbox start         # 启动服务
 agbox start -d      # 后台启动
 ```
-- 详细部署可参考 <a href="https://tdragon6.github.io/AgBox-Docs/quick/start.md" target="_blank">快速开始</a>，支持一键部署、docker 部署和手动部署多种方式
+- 详细部署可参考 <a href="https://tdragon6.github.io/AgBox-Docs/quick/start.html" target="_blank">快速开始</a>，支持一键部署、docker 部署和手动部署多种方式
 
 ## 使用文档
 <a href="https://tdragon6.github.io/AgBox-Docs/" target="_blank">AgBox 使用文档</a>
