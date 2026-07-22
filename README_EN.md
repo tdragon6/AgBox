@@ -56,10 +56,10 @@ agbox password      # Set password
 agbox start         # Start the service
 agbox start -d      # Start in background
 ```
-- For detailed deployment instructions, refer to <a href="https://tdragon6.github.io/AgBox-Docs/en/quick/start.md" target="_blank">Quick Start</a>, which supports one-click deployment, Docker deployment, and manual deployment
+- For detailed deployment instructions, refer to <a href="https://tdragon6.github.io/AgBox-Docs/en/quick/start.html" target="_blank">Quick Start</a>, which supports one-click deployment, Docker deployment, and manual deployment
 
 ## Documentation
-<a href="https://tdragon6.github.io/AgBox-Docs/en/" target="_blank">AgBox Documentation</a>
+<a href="https://tdragon6.github.io/AgBox-Docs/en" target="_blank">AgBox Documentation</a>
 
 ## Environment
 - Current Version:
